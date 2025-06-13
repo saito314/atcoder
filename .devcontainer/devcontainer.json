@@ -1,0 +1,28 @@
+{
+    "name": "Python Competitive Programming",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "charliermarsh.ruff", // Linter (optional)
+                "vscode-icons.vscode-icons" // Icon Pack (optional)
+            ]
+        }
+    },
+    // コンテナ起動後に実行されるコマンド（例：pip installなど）
+    // Dockerfileでインストール済みの場合は不要
+    // "postCreateCommand": "pip install -r requirements.txt",
+
+    // ポートフォワーディングの設定（Webアプリケーション開発などで必要。競技プログラミングでは不要な場合が多い）
+    // "forwardPorts": [8000],
+
+    // 環境変数 (必要であれば)
+    // "remoteEnv": {
+    //     "PYTHONPATH": "/workspaces/${localWorkspaceFolderBasename}"
+    // }
+}
