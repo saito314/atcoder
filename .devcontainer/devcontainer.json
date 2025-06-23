@@ -13,7 +13,7 @@
                 "vscode-icons.vscode-icons" // Icon Pack (optional)
             ]
         }
-    },
+    }
     // コンテナ起動後に実行されるコマンド（例：pip installなど）
     // Dockerfileでインストール済みの場合は不要
     // "postCreateCommand": "pip install -r requirements.txt",
